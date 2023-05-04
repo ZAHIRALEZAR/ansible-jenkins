@@ -3,4 +3,5 @@
   become: yes
   roles:
     - nginx
-    --limit bigip
+  vars:
+  nginx_port: 8080
