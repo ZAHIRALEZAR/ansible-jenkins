@@ -1,8 +1,6 @@
-
 - name: install nginx
   hosts: centos
   become: yes
   roles:
     - nginx
-
-
+    --limit bigip
