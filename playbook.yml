@@ -1,5 +1,5 @@
 - name: install nginx
-  hosts: centos
+  hosts: All
   become: yes
   roles:
     - nginx
